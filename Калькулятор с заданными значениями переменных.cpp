@@ -70,20 +70,20 @@ double roundp(double a)
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+	
 	const double a = 2.45, b = 4.23, c = 6;
-	cout << "Сумма чисел a+b= " << roundp(sum(a, b)) << endl;
-	cout << "Разность чисел a-b= " << roundp(subtraction(a, b)) << endl;
-	cout << "Произведение чисел a*b= " << roundp(multiplication(a, b)) << endl;
-	cout << "Честное чисел a/b= " << roundp(division(a, b)) << endl;
-	cout << "Возведение в степень a^b= " << roundp(power(a,b)) << endl;
+	cout << "Sum of numbers a+b= " << roundp(sum(a, b)) << endl;
+	cout << "Subtracion of numbers a-b= " << roundp(subtraction(a, b)) << endl;
+	cout << "Multiplication of numbers a*b= " << roundp(multiplication(a, b)) << endl;
+	cout << "Division of numbers a/b= " << roundp(division(a, b)) << endl;
+	cout << "Power of a^b= " << roundp(power(a,b)) << endl;
 	if (a >= 0)
 
-		cout << "Корень из a " << squareroot(a) << endl;
+		cout << "Squareroot of a " << squareroot(a) << endl;
 
 	else
 
-		cout << "Корень извлечь нельзя" << endl;
+		cout << "The operation of squareroot could not be performed " << endl;
 	system("pause");
 
 }
