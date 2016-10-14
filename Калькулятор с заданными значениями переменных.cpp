@@ -70,8 +70,13 @@ double roundp(double a)
 
 int main()
 {
-	
-	const double a = 2.45, b = 4.23, c = 6;
+	int a,b,c;
+	cout << "Enter a=";
+	cin >> a;
+	cout << "Enter b=";
+	cin >> b;
+	cout << "Enter c=";
+	cin >>c;
 	cout << "Sum of numbers a+b= " << roundp(sum(a, b)) << endl;
 	cout << "Subtracion of numbers a-b= " << roundp(subtraction(a, b)) << endl;
 	cout << "Multiplication of numbers a*b= " << roundp(multiplication(a, b)) << endl;
